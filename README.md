@@ -28,7 +28,7 @@ Follow these steps to compile the source code using the Command Prompt (`cmd`):
 
 2. Assemble the source code into a Windows 64-bit object file using NASM:
    ```cmd
-   nasm -f win64 main.asm -o main.o
+   nasm -f win64 cpuid.asm -o main.o
    ```
 
 3. Link the object file into a standalone Windows executable (`.exe`) using G++:
